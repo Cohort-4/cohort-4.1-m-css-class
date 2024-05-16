@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS</title>
+    <style>
+      p {
+        color: red;
+        font-size: 50px;
+        border: 10px solid green;
+        padding: 40px;
+        margin: 20px;
+        text-transform: uppercase;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      input {
+        width: 50%;
+        padding: 10px;
+        margin: 10px 10px 10px 10px;
+        margin: 10px 0;
+        border: 1px solid green;
+      }
+      button {
+        border: none;
+        width: 50%;
+        padding: 10px 15px;
+        color: white;
+        background-color: darkorchid;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 2px solid green;
+        padding: 10px;
+        text-align: left;
+      }
+    </style>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Using external styles -->
+    <section>
+      <a class="link" href="/">Home</a>
+      <a class="link" href="/about">About</a>
+      <a class="link" href="/contact">Contact</a>
+      <a class="link" href="/product">Products</a>
+      <a class="link" href="/team">Team</a>
+    </section>
+
+    <section>
+      <p id="para-one">Lorem ipsum dolor sit.</p>
+      <p id="para-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <!-- Using external styles -->
+
+    <section>
+      <h2>Paragraph with styles</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        dignissimos quaerat ab saepe mollitia impedit. Quisquam ipsa porro
+        illum, dolorum similique nemo minus, alias ea dolor ex eum, deleniti
+        optio.
+      </p>
+    </section>
+    <section>
+      <h2>Image with styles</h2>
+      <img src="/assets/image/office.jpeg" alt="office image" />
+    </section>
+
+    <h2>Inputs with styles</h2>
+    <section>
+      <form>
+        <input type="text" placeholder="Enter your firstname" />
+        <input type="text" placeholder="Enter your lastname" />
+        <input type="text" placeholder="Enter your email" />
+        <input type="text" placeholder="Enter your password" />
+        <input type="text" placeholder="Enter your username" />
+        <section><button>Click me</button></section>
+      </form>
+    </section>
+
+    <h2>HTML/CSS TABLE</h2>
+
+    <table>
+      <tr>
+        <th>Matric Number</th>
+        <th>Course</th>
+        <th>Department</th>
+        <th>Faculty</th>
+        <th>Institution</th>
+      </tr>
+      <tr>
+        <td>2024011</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+      <tr>
+        <td>2024012</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+      <tr>
+        <td>2024011</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+      <tr>
+        <td>2024013</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+      <tr>
+        <td>2024014</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+      <tr>
+        <td>2024015</td>
+        <td>Frontend Engineer</td>
+        <td>Software Engineering</td>
+        <td>Engineering</td>
+        <td>Marusoft Academy</td>
+      </tr>
+    </table>
+
+    <!-- Using inline style -->
+    <section>
+      <h2 style="font-size: 30px; color: blue">My wish List</h2>
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          background-color: red;
+          color: white;
+          font-weight: bolder;
+          font-size: 25px;
+        "
+      >
+        <li>Observe my Prayer</li>
+        <li>Eat Banana</li>
+        <li>Eat Some food</li>
+        <li>Visit some friends</li>
+        <li>Read some books</li>
+        <li>Learn to code</li>
+      </ul>
+    </section>
+  </body>
+</html>
