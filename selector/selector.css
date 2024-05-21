@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* class selector */
+.my-para {
+  font-size: 2rem;
+  color: red;
+  border: 10px solid green;
+  /* top bottom left right */
+  /* padding: 40px;  */
+  /* padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px; */
+  /* first value = top and bottom */
+  /* second value = left and right */
+  padding: 10px 30px;
+  /* margin: 100px; */
+  margin: 30px 50px;
+}
+.container {
+  background-color: dodgerblue;
+  padding: 30px;
+  text-align: center;
+}
+.first-child {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.1rem;
+}
+.second-child {
+  border: none;
+  padding: 10px 25px;
+  background-color: orange;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+/* ID SELECTOR */
+#my-name {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+#firstname {
+  color: blue;
+}
+#profile {
+  background-color: rgb(241, 240, 240);
+  max-width: 45%;
+  margin: 0 auto;
+  padding: 20px;
+}
+#hr {
+  width: 50%;
+  margin: 10px 0px;
+}
+/* ID SELECTOR */
+
+/* class element selector */
+.top-section h4 {
+  color: red;
+}
+
+/* class element selector */
+
+/* Grouping selector */
+h2,
+h3,
+h4,
+p {
+  font-size: 1.1rem;
+}
+/* Grouping selector */

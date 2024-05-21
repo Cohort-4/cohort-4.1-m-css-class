@@ -1,5 +1,5 @@
 
-### CASCADING STYLE SHEET CSS
+### CASCADING STYLE SHEET (CSS)
 
 - Add presentation to HTML elements and tags
 - Beautify HTML elements: color, font, spaces
@@ -10,10 +10,3 @@
 - Using inline style
 - Using external style
 
-#### CSS Selector
-```
-selector {
-  css ruleset
-  property-name : "value";
-}
-```
