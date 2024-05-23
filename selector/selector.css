@@ -76,3 +76,54 @@ p {
   font-size: 1.1rem;
 }
 /* Grouping selector */
+
+/* styling attributes */
+[href] {
+  color: green;
+}
+[href="/about.html"] {
+  color: red;
+}
+/* styling attributes */
+
+input{
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+input::placeholder{
+  color: red;
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* Pseudo-Classes in CSS */
+.click-btn {
+  border: none;
+  padding: 10px 25px;
+  background-color: rgb(131, 94, 26);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 45px;
+  cursor: pointer;
+}
+.click-btn:hover {
+  background-color: rgb(75, 55, 18);
+}
+
+.send-btn {
+  border: none;
+  padding: 10px 25px;
+  background-color: rgb(62, 133, 7);
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 45px;
+  cursor: pointer;
+}
+/* Pseudo-Classes in CSS */
+
+/* Pseudo-elements in CSS */
+.para-wrapper p::first-letter{
+color: red;
+font-size: 2rem;
+}
+/* Pseudo-elements in CSS */
