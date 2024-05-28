@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hello {
+  display: inline;
+  color: red;
+}
+button {
+  display: block;
+}
+
+.first-para {
+  display: none;
+}
+.second-para {
+  visibility: hidden;
+}
