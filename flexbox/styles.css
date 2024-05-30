@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* display flex styles */
+.parent-container {
+  display: flex;
+}
+.parent-container > div {
+  background-color: orange;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 2rem;
+}
+/* display flex styles */
+
+/* flex-direction styles */
+.flexD-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.flexD-container > div {
+  background-color: rgb(129, 239, 12);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 2rem;
+}
+/* flex-direction styles */
+
+/* flex-wrap styles */
+.flexW-container {
+  display: flex;
+
+  flex-wrap: wrap;
+  /* flex-flow: column-reverse wrap ; */
+}
+.flexW-container > div {
+  background-color: rgb(233, 28, 244);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 2rem;
+}
+/* flex-wrap styles */
