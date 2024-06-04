@@ -1,0 +1,57 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+}
+span.fa-bars,
+span.fa-search {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+.logo {
+  display: flex;
+  gap: 0.4rem;
+}
+.logo > div {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 8px;
+}
+.auth button {
+  font-weight: 900;
+}
+button {
+  cursor: pointer;
+}
+button.register {
+  padding: 8px 15px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+}
+button.login {
+  padding: 8px 15px;
+  background-color: transparent;
+  color: #1a1a1a;
+  border: none;
+}
+button.login:hover {
+  padding: 8px 15px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+}
