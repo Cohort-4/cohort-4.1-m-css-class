@@ -11,6 +11,7 @@ body {
   text-align: center;
   margin: 2rem 0rem;
 }
+/* 1fr = 25% of the available space. */
 .container {
   display: grid;
   column-gap: 1rem;
@@ -67,20 +68,20 @@ body {
   padding: 1rem;
 }
 /* align content vertical alignment */
-/* grid properties styles ens */
+/* grid properties styles end */
 
-/* grid items styles */
+/* grid items properties (children items) */
 .grid-item-title {
   text-align: center;
   margin: 2rem 0rem;
 }
-.grid-items {
+.grid-column-items {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   padding: 1rem;
 }
-.grid-item {
+.grid-column-item {
   background-color: #d13580;
   padding: 1rem;
   color: #fff;
@@ -100,4 +101,49 @@ body {
   grid-column-end: 5; */
   grid-column: 1 / 5;
 }
+
+
+/* grid-row styles */
+.grid-row-items {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+}
+.grid-row-items > div {
+  background-color: #5f35d1;
+  padding: 1rem;
+  color: #fff;
+}
+.grid-row-item-1{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.grid-row-item-2{
+  grid-row-start: 1;
+  grid-row-end:3 ;
+}
 /* grid items styles */
+
+/* grid-template-areas styles */
+
+.grid-template-areas-container {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main aside aside'
+    'menu footer footer footer footer footer';
+}
+.grid-template-areas-container > div{
+ background-color: #35d16e;
+  padding: 1rem;
+  color: #fff;
+}
+.item-1 { grid-area: header; }
+.item-2 { grid-area: menu; }
+.item-3 { grid-area: main; }
+.item-4 { grid-area: aside; }
+.item-5 { grid-area: footer; }
+/* grid-template-areas styles */
