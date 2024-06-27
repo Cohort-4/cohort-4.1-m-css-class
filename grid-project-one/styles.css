@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  font-family: "Space Grotesk";
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-title {
+  text-align: center;
+  margin: 3rem 0;
+}
+.container {
+  padding: 0 50px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.card-top {
+}
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.card-title {
+}
+.card-desc {
+}
+.card-date {
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card-info button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-info button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+.card-info span {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 920px) {
+  .cards{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
