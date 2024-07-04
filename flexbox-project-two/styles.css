@@ -27,7 +27,7 @@ nav {
   justify-content: space-between;
   padding: 20px 60px;
 }
-nav h1{
+nav h1 {
   cursor: pointer;
 }
 .lists {
@@ -231,7 +231,7 @@ nav h1{
 /* footer styles */
 .footer-container {
   padding: 20px 60px;
-  background-color: #1a1a1a;
+  background-color: #181818;
   color: #fff;
 }
 .footer-content {
@@ -285,6 +285,17 @@ nav h1{
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+}
+.footer-line {
+  margin: 2rem 0rem 0.6rem 0rem;
+}
+.footer-bottom-content {
+  color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
 }
 /* footer styles */
 

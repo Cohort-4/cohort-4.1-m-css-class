@@ -89,7 +89,7 @@ main {
 .right-container {
   flex: 25%;
 }
-.cards{}
+/* .cards{} */
 .card{
   display: flex;
   flex-direction: column;
